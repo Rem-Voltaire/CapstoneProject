@@ -28,6 +28,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [_scroller setScrollEnabled:YES];
+    [_scroller setContentSize:CGSizeMake(320, 700)];
 	// Do any additional setup after loading the view.
 }
 

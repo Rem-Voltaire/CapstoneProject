@@ -19,6 +19,7 @@
     UITextField *alertTextField;
     UIAlertView *emailAlert;
     UIAlertView *emailValidate;
+    UIAlertView *alert;
 }
 
 @synthesize backAccidentDate, backAccidentLocation, backAgencyName, backOfficerName, backUnitBadgeNumber, backWitness1FirstName, backWitness1LastName, backWitness1PhoneNumber, backWitness2FirstName, backWitness2LastName, backWitness2PhoneNumber;
@@ -158,13 +159,13 @@
 
 -(void)checkEmail {
     
-    if(![self validateEmail:[[emailAlert textFieldAtIndex:0] text]] || [alertTextField.text length] <= 0)
+    if(![self validateEmail:[alertTextField text]] || [alertTextField.text length] <= 0)
     {
         emailValidate = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Enter a valid email address" delegate:self cancelButtonTitle:nil otherButtonTitles:@"Try Again", nil];
         [emailValidate setTag:2];
         [emailValidate show];
     }
-    else if([self validateEmail:[[emailAlert textFieldAtIndex:0] text]])
+    else if([self validateEmail:[alertTextField text]])
     {
         userEmailAddress = alertTextField.text;
         [self sendAMail];
@@ -179,17 +180,15 @@
             [self checkEmail];
         }
     }
-//    else if([alertTextField.text length] <= 0)
-//    {
-//        return;
-//    }
-    else
+    else if (alertView.tag == 3)
+    {
+        [self performSegueWithIdentifier:@"segueReviewToHome" sender:self];
+    }
+    else if (alertView.tag == 2)
     {
         [self sendAccidentNotes:self];
     }
 }
-
-
 
 
 -(void)sendAMail{
@@ -214,7 +213,7 @@
     
     
     
-    emailMessage.ccEmail =@"silverfreezez@gmail.com";
+    emailMessage.ccEmail =@"silverfreezez@hotmail.com";
     
     
     
@@ -323,8 +322,8 @@
     
     NSLog(@"delegate - message sent");
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Message sent." message:nil delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles: nil];
-    
+    alert = [[UIAlertView alloc] initWithTitle:@"Message sent." message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"Ok", nil];
+    [alert setTag:3];
     [alert show];
     
 }

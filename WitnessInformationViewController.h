@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface WitnessInformationViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scroller;
 @property (weak, nonatomic) IBOutlet UITextField *witness1FirstName;
 @property (weak, nonatomic) IBOutlet UITextField *witness1LastName;
 @property (weak, nonatomic) IBOutlet UITextField *witness1PhoneNumber;

@@ -101,7 +101,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [_scroller setScrollEnabled:YES];
+    [_scroller setContentSize:CGSizeMake(320, 700)];
     if (backWitness1FirstName) {
         _witness1FirstName.text = backWitness1FirstName;
     }

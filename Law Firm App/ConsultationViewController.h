@@ -17,5 +17,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *phoneNumber;
 @property (strong, nonatomic) IBOutlet UITextView *comments;
 - (IBAction)sendConsultationButton:(id)sender;
+@property (strong, nonatomic) IBOutlet UIScrollView *scroller;
 
 @end
