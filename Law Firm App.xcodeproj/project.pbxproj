@@ -72,8 +72,6 @@
 		EB11A35F18F76370008C8C12 /* ConsultationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationViewController.m; sourceTree = "<group>"; };
 		EB11A36118F7647B008C8C12 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EB11A36318F764B5008C8C12 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		EB2E98BB18F6FCA600C7C18C /* WardBarnesLaunch(iPhone).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WardBarnesLaunch(iPhone).png"; sourceTree = "<group>"; };
-		EB2E98BC18F6FCAF00C7C18C /* WardBarnesLaunch(iPhone5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WardBarnesLaunch(iPhone5).png"; sourceTree = "<group>"; };
 		EB49AB85190108EB007A710A /* AccidentInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccidentInformationViewController.h; path = ../AccidentInformationViewController.h; sourceTree = "<group>"; };
 		EB49AB86190108EB007A710A /* AccidentInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccidentInformationViewController.m; path = ../AccidentInformationViewController.m; sourceTree = "<group>"; };
 		EB49AB88190108FF007A710A /* WitnessInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WitnessInformationViewController.h; path = ../WitnessInformationViewController.h; sourceTree = "<group>"; };
@@ -94,6 +92,8 @@
 		EB71429A18FA401E004890CC /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
 		EB71429B18FA401E004890CC /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
 		EB71429C18FA401E004890CC /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		EB92E4E0190C8D1100596C78 /* WardBarnesLaunch(iPhone).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WardBarnesLaunch(iPhone).png"; sourceTree = "<group>"; };
+		EB92E4E1190C8D2300596C78 /* WardBarnesLaunch(iPhone5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WardBarnesLaunch(iPhone5).png"; sourceTree = "<group>"; };
 		EBAB819A1904CA7C00C7D9D0 /* ReviewInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReviewInformationViewController.h; path = ../ReviewInformationViewController.h; sourceTree = "<group>"; };
 		EBAB819B1904CA7C00C7D9D0 /* ReviewInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReviewInformationViewController.m; path = ../ReviewInformationViewController.m; sourceTree = "<group>"; };
 		EBF61B731904219D005845E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -139,8 +139,8 @@
 		1FCB96BC18C00A49006E73EC = {
 			isa = PBXGroup;
 			children = (
-				EB2E98BC18F6FCAF00C7C18C /* WardBarnesLaunch(iPhone5).png */,
-				EB2E98BB18F6FCA600C7C18C /* WardBarnesLaunch(iPhone).png */,
+				EB92E4E1190C8D2300596C78 /* WardBarnesLaunch(iPhone5).png */,
+				EB92E4E0190C8D1100596C78 /* WardBarnesLaunch(iPhone).png */,
 				1FCB96CE18C00A49006E73EC /* Law Firm App */,
 				1FCB96F018C00A49006E73EC /* Law Firm AppTests */,
 				1FCB96C718C00A49006E73EC /* Frameworks */,
