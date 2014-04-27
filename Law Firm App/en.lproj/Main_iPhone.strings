@@ -1,0 +1,30 @@
+
+/* Class = "IBUIButton"; normalTitle = "Accident Report"; ObjectID = "0yo-KR-14T"; */
+"0yo-KR-14T.normalTitle" = "Accident Report";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "3Mi-tM-BTj"; */
+"3Mi-tM-BTj.normalTitle" = "Back";
+
+/* Class = "IBUIButton"; normalTitle = "Contact Us"; ObjectID = "Dmd-1d-03e"; */
+"Dmd-1d-03e.normalTitle" = "Contact Us";
+
+/* Class = "IBUILabel"; text = "Attorneys at Law"; ObjectID = "EYB-tb-md7"; */
+"EYB-tb-md7.text" = "Attorneys at Law";
+
+/* Class = "IBUILabel"; text = "Pensacola Personal Injury Attorneys"; ObjectID = "FTF-Qo-dTY"; */
+"FTF-Qo-dTY.text" = "Pensacola Personal Injury Attorneys";
+
+/* Class = "IBUITextView"; text = "If you have been injured due to the negligence or wrongdoing of someone else, we are here to help you. At Ward & Barnes, we work exclusively for injury victims. Damages we seek for our clients include: physical damages for the loss/injury, pain and suffering from an injury, medical bills, loss of work wages, and out-of-pocket expenses. We are prepared to help you and meet your individual needs. Our Pensacola law firm never charges the client to consult with us and we only get paid if we make a recovery on your behalf. "; ObjectID = "Q1c-eW-RI0"; */
+"Q1c-eW-RI0.text" = "If you have been injured due to the negligence or wrongdoing of someone else, we are here to help you. At Ward & Barnes, we work exclusively for injury victims. Damages we seek for our clients include: physical damages for the loss/injury, pain and suffering from an injury, medical bills, loss of work wages, and out-of-pocket expenses. We are prepared to help you and meet your individual needs. Our Pensacola law firm never charges the client to consult with us and we only get paid if we make a recovery on your behalf. ";
+
+/* Class = "IBUILabel"; text = "Contact Us!! Now!!!"; ObjectID = "VMv-5u-XR8"; */
+"VMv-5u-XR8.text" = "Contact Us!! Now!!!";
+
+/* Class = "IBUIButton"; normalTitle = "About Us"; ObjectID = "X6W-MR-rAm"; */
+"X6W-MR-rAm.normalTitle" = "About Us";
+
+/* Class = "IBUILabel"; text = "About Our Firm"; ObjectID = "eUu-CG-EXL"; */
+"eUu-CG-EXL.text" = "About Our Firm";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "vcD-FU-Xlx"; */
+"vcD-FU-Xlx.normalTitle" = "Back";

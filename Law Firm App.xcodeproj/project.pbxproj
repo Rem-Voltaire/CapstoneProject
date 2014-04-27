@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FAB558818E33E7B0040F1E8 /* logo (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB558718E33E7B0040F1E8 /* logo (1).png */; };
+		1FCB96C918C00A49006E73EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCB96C818C00A49006E73EC /* Foundation.framework */; };
+		1FCB96CB18C00A49006E73EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCB96CA18C00A49006E73EC /* CoreGraphics.framework */; };
+		1FCB96CD18C00A49006E73EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCB96CC18C00A49006E73EC /* UIKit.framework */; };
+		1FCB96D318C00A49006E73EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB96D118C00A49006E73EC /* InfoPlist.strings */; };
+		1FCB96D518C00A49006E73EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB96D418C00A49006E73EC /* main.m */; };
+		1FCB96D918C00A49006E73EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB96D818C00A49006E73EC /* AppDelegate.m */; };
+		1FCB96EB18C00A49006E73EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCB96EA18C00A49006E73EC /* XCTest.framework */; };
+		1FCB96EC18C00A49006E73EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCB96C818C00A49006E73EC /* Foundation.framework */; };
+		1FCB96ED18C00A49006E73EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCB96CC18C00A49006E73EC /* UIKit.framework */; };
+		1FCB96F518C00A49006E73EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB96F318C00A49006E73EC /* InfoPlist.strings */; };
+		1FCB96F718C00A49006E73EC /* Law_Firm_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB96F618C00A49006E73EC /* Law_Firm_AppTests.m */; };
+		B538256D18F38D6200A65656 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B538256C18F38D6200A65656 /* Images.xcassets */; };
+		B538257118F38DCD00A65656 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B538257018F38DCD00A65656 /* Main_iPhone.storyboard */; };
+		EB11A36018F76370008C8C12 /* ConsultationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB11A35F18F76370008C8C12 /* ConsultationViewController.m */; };
+		EB11A36218F7647B008C8C12 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB11A36118F7647B008C8C12 /* CFNetwork.framework */; };
+		EB11A36418F764B5008C8C12 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB11A36318F764B5008C8C12 /* MessageUI.framework */; };
+		EB49AB87190108EB007A710A /* AccidentInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB49AB86190108EB007A710A /* AccidentInformationViewController.m */; };
+		EB49AB8A190108FF007A710A /* WitnessInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB49AB89190108FF007A710A /* WitnessInformationViewController.m */; };
+		EB49AB8D19010966007A710A /* ClientInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB49AB8C19010966007A710A /* ClientInformationViewController.m */; };
+		EB49AB9919046BCC007A710A /* RespondingAgencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB49AB9819046BCC007A710A /* RespondingAgencyViewController.m */; };
+		EB5AC40618F4A2720067E775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AC40518F4A2720067E775 /* ViewController.m */; };
+		EB71429D18FA401E004890CC /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71429418FA401E004890CC /* Base64Transcoder.m */; };
+		EB71429E18FA401E004890CC /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71429618FA401E004890CC /* HSK_CFUtilities.m */; };
+		EB71429F18FA401E004890CC /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71429818FA401E004890CC /* NSData+Base64Additions.m */; };
+		EB7142A018FA401E004890CC /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71429A18FA401E004890CC /* NSStream+SKPSMTPExtensions.m */; };
+		EB7142A118FA401E004890CC /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71429C18FA401E004890CC /* SKPSMTPMessage.m */; };
+		EBAB819C1904CA7C00C7D9D0 /* ReviewInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAB819B1904CA7C00C7D9D0 /* ReviewInformationViewController.m */; };
+		EBF61B741904219D005845E6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF61B731904219D005845E6 /* MapKit.framework */; };
+		EBF61B7F19043E82005845E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF61B7E19043E82005845E6 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FCB96EE18C00A49006E73EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FCB96BD18C00A49006E73EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FCB96C418C00A49006E73EC;
+			remoteInfo = "Law Firm App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FAB558718E33E7B0040F1E8 /* logo (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo (1).png"; sourceTree = "<group>"; };
+		1FCB96C518C00A49006E73EC /* Law Firm App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Law Firm App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCB96C818C00A49006E73EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FCB96CA18C00A49006E73EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FCB96CC18C00A49006E73EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FCB96D018C00A49006E73EC /* Law Firm App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Law Firm App-Info.plist"; sourceTree = "<group>"; };
+		1FCB96D218C00A49006E73EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FCB96D418C00A49006E73EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FCB96D618C00A49006E73EC /* Law Firm App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Law Firm App-Prefix.pch"; sourceTree = "<group>"; };
+		1FCB96D718C00A49006E73EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FCB96D818C00A49006E73EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FCB96E918C00A49006E73EC /* Law Firm AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Law Firm AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCB96EA18C00A49006E73EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1FCB96F218C00A49006E73EC /* Law Firm AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Law Firm AppTests-Info.plist"; sourceTree = "<group>"; };
+		1FCB96F418C00A49006E73EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FCB96F618C00A49006E73EC /* Law_Firm_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Law_Firm_AppTests.m; sourceTree = "<group>"; };
+		B538256C18F38D6200A65656 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B538257018F38DCD00A65656 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EB11A35E18F76370008C8C12 /* ConsultationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultationViewController.h; sourceTree = "<group>"; };
+		EB11A35F18F76370008C8C12 /* ConsultationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultationViewController.m; sourceTree = "<group>"; };
+		EB11A36118F7647B008C8C12 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EB11A36318F764B5008C8C12 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EB2E98BB18F6FCA600C7C18C /* WardBarnesLaunch(iPhone).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WardBarnesLaunch(iPhone).png"; sourceTree = "<group>"; };
+		EB2E98BC18F6FCAF00C7C18C /* WardBarnesLaunch(iPhone5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WardBarnesLaunch(iPhone5).png"; sourceTree = "<group>"; };
+		EB49AB85190108EB007A710A /* AccidentInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccidentInformationViewController.h; path = ../AccidentInformationViewController.h; sourceTree = "<group>"; };
+		EB49AB86190108EB007A710A /* AccidentInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccidentInformationViewController.m; path = ../AccidentInformationViewController.m; sourceTree = "<group>"; };
+		EB49AB88190108FF007A710A /* WitnessInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WitnessInformationViewController.h; path = ../WitnessInformationViewController.h; sourceTree = "<group>"; };
+		EB49AB89190108FF007A710A /* WitnessInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WitnessInformationViewController.m; path = ../WitnessInformationViewController.m; sourceTree = "<group>"; };
+		EB49AB8B19010966007A710A /* ClientInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientInformationViewController.h; path = ../ClientInformationViewController.h; sourceTree = "<group>"; };
+		EB49AB8C19010966007A710A /* ClientInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientInformationViewController.m; path = ../ClientInformationViewController.m; sourceTree = "<group>"; };
+		EB49AB9719046BCC007A710A /* RespondingAgencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RespondingAgencyViewController.h; path = ../RespondingAgencyViewController.h; sourceTree = "<group>"; };
+		EB49AB9819046BCC007A710A /* RespondingAgencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RespondingAgencyViewController.m; path = ../RespondingAgencyViewController.m; sourceTree = "<group>"; };
+		EB5AC40418F4A2720067E775 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB5AC40518F4A2720067E775 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB71429318FA401E004890CC /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		EB71429418FA401E004890CC /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		EB71429518FA401E004890CC /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		EB71429618FA401E004890CC /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		EB71429718FA401E004890CC /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		EB71429818FA401E004890CC /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		EB71429918FA401E004890CC /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		EB71429A18FA401E004890CC /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		EB71429B18FA401E004890CC /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		EB71429C18FA401E004890CC /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		EBAB819A1904CA7C00C7D9D0 /* ReviewInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReviewInformationViewController.h; path = ../ReviewInformationViewController.h; sourceTree = "<group>"; };
+		EBAB819B1904CA7C00C7D9D0 /* ReviewInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReviewInformationViewController.m; path = ../ReviewInformationViewController.m; sourceTree = "<group>"; };
+		EBF61B731904219D005845E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EBF61B7E19043E82005845E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FCB96C218C00A49006E73EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF61B7F19043E82005845E6 /* CoreLocation.framework in Frameworks */,
+				EBF61B741904219D005845E6 /* MapKit.framework in Frameworks */,
+				EB11A36418F764B5008C8C12 /* MessageUI.framework in Frameworks */,
+				1FCB96C918C00A49006E73EC /* Foundation.framework in Frameworks */,
+				EB11A36218F7647B008C8C12 /* CFNetwork.framework in Frameworks */,
+				1FCB96CB18C00A49006E73EC /* CoreGraphics.framework in Frameworks */,
+				1FCB96CD18C00A49006E73EC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCB96E618C00A49006E73EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCB96EB18C00A49006E73EC /* XCTest.framework in Frameworks */,
+				1FCB96ED18C00A49006E73EC /* UIKit.framework in Frameworks */,
+				1FCB96EC18C00A49006E73EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FAB558418E33D2B0040F1E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB558718E33E7B0040F1E8 /* logo (1).png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1FCB96BC18C00A49006E73EC = {
+			isa = PBXGroup;
+			children = (
+				EB2E98BC18F6FCAF00C7C18C /* WardBarnesLaunch(iPhone5).png */,
+				EB2E98BB18F6FCA600C7C18C /* WardBarnesLaunch(iPhone).png */,
+				1FCB96CE18C00A49006E73EC /* Law Firm App */,
+				1FCB96F018C00A49006E73EC /* Law Firm AppTests */,
+				1FCB96C718C00A49006E73EC /* Frameworks */,
+				1FCB96C618C00A49006E73EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FCB96C618C00A49006E73EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB96C518C00A49006E73EC /* Law Firm App.app */,
+				1FCB96E918C00A49006E73EC /* Law Firm AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCB96C718C00A49006E73EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF61B7E19043E82005845E6 /* CoreLocation.framework */,
+				EBF61B731904219D005845E6 /* MapKit.framework */,
+				EB11A36318F764B5008C8C12 /* MessageUI.framework */,
+				EB11A36118F7647B008C8C12 /* CFNetwork.framework */,
+				1FCB96C818C00A49006E73EC /* Foundation.framework */,
+				1FCB96CA18C00A49006E73EC /* CoreGraphics.framework */,
+				1FCB96CC18C00A49006E73EC /* UIKit.framework */,
+				1FCB96EA18C00A49006E73EC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FCB96CE18C00A49006E73EC /* Law Firm App */ = {
+			isa = PBXGroup;
+			children = (
+				EB11A36518F764C5008C8C12 /* SMTP Library */,
+				EB49AB8B19010966007A710A /* ClientInformationViewController.h */,
+				EB49AB8C19010966007A710A /* ClientInformationViewController.m */,
+				EBAB819A1904CA7C00C7D9D0 /* ReviewInformationViewController.h */,
+				EBAB819B1904CA7C00C7D9D0 /* ReviewInformationViewController.m */,
+				EB49AB9719046BCC007A710A /* RespondingAgencyViewController.h */,
+				EB49AB9819046BCC007A710A /* RespondingAgencyViewController.m */,
+				EB49AB88190108FF007A710A /* WitnessInformationViewController.h */,
+				EB49AB89190108FF007A710A /* WitnessInformationViewController.m */,
+				EB49AB85190108EB007A710A /* AccidentInformationViewController.h */,
+				EB49AB86190108EB007A710A /* AccidentInformationViewController.m */,
+				EB5AC40418F4A2720067E775 /* ViewController.h */,
+				EB5AC40518F4A2720067E775 /* ViewController.m */,
+				EB11A35E18F76370008C8C12 /* ConsultationViewController.h */,
+				EB11A35F18F76370008C8C12 /* ConsultationViewController.m */,
+				1FAB558418E33D2B0040F1E8 /* Images */,
+				1FCB96D718C00A49006E73EC /* AppDelegate.h */,
+				1FCB96D818C00A49006E73EC /* AppDelegate.m */,
+				B538257018F38DCD00A65656 /* Main_iPhone.storyboard */,
+				B538256C18F38D6200A65656 /* Images.xcassets */,
+				1FCB96CF18C00A49006E73EC /* Supporting Files */,
+			);
+			path = "Law Firm App";
+			sourceTree = "<group>";
+		};
+		1FCB96CF18C00A49006E73EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB96D018C00A49006E73EC /* Law Firm App-Info.plist */,
+				1FCB96D118C00A49006E73EC /* InfoPlist.strings */,
+				1FCB96D418C00A49006E73EC /* main.m */,
+				1FCB96D618C00A49006E73EC /* Law Firm App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FCB96F018C00A49006E73EC /* Law Firm AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB96F618C00A49006E73EC /* Law_Firm_AppTests.m */,
+				1FCB96F118C00A49006E73EC /* Supporting Files */,
+			);
+			path = "Law Firm AppTests";
+			sourceTree = "<group>";
+		};
+		1FCB96F118C00A49006E73EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB96F218C00A49006E73EC /* Law Firm AppTests-Info.plist */,
+				1FCB96F318C00A49006E73EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB11A36518F764C5008C8C12 /* SMTP Library */ = {
+			isa = PBXGroup;
+			children = (
+				EB71429318FA401E004890CC /* Base64Transcoder.h */,
+				EB71429418FA401E004890CC /* Base64Transcoder.m */,
+				EB71429518FA401E004890CC /* HSK_CFUtilities.h */,
+				EB71429618FA401E004890CC /* HSK_CFUtilities.m */,
+				EB71429718FA401E004890CC /* NSData+Base64Additions.h */,
+				EB71429818FA401E004890CC /* NSData+Base64Additions.m */,
+				EB71429918FA401E004890CC /* NSStream+SKPSMTPExtensions.h */,
+				EB71429A18FA401E004890CC /* NSStream+SKPSMTPExtensions.m */,
+				EB71429B18FA401E004890CC /* SKPSMTPMessage.h */,
+				EB71429C18FA401E004890CC /* SKPSMTPMessage.m */,
+			);
+			name = "SMTP Library";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FCB96C418C00A49006E73EC /* Law Firm App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCB96FA18C00A49006E73EC /* Build configuration list for PBXNativeTarget "Law Firm App" */;
+			buildPhases = (
+				1FCB96C118C00A49006E73EC /* Sources */,
+				1FCB96C218C00A49006E73EC /* Frameworks */,
+				1FCB96C318C00A49006E73EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Law Firm App";
+			productName = "Law Firm App";
+			productReference = 1FCB96C518C00A49006E73EC /* Law Firm App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FCB96E818C00A49006E73EC /* Law Firm AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCB96FD18C00A49006E73EC /* Build configuration list for PBXNativeTarget "Law Firm AppTests" */;
+			buildPhases = (
+				1FCB96E518C00A49006E73EC /* Sources */,
+				1FCB96E618C00A49006E73EC /* Frameworks */,
+				1FCB96E718C00A49006E73EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FCB96EF18C00A49006E73EC /* PBXTargetDependency */,
+			);
+			name = "Law Firm AppTests";
+			productName = "Law Firm AppTests";
+			productReference = 1FCB96E918C00A49006E73EC /* Law Firm AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FCB96BD18C00A49006E73EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					1FCB96C418C00A49006E73EC = {
+						DevelopmentTeam = W23JT3HF49;
+					};
+					1FCB96E818C00A49006E73EC = {
+						TestTargetID = 1FCB96C418C00A49006E73EC;
+					};
+				};
+			};
+			buildConfigurationList = 1FCB96C018C00A49006E73EC /* Build configuration list for PBXProject "Law Firm App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FCB96BC18C00A49006E73EC;
+			productRefGroup = 1FCB96C618C00A49006E73EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FCB96C418C00A49006E73EC /* Law Firm App */,
+				1FCB96E818C00A49006E73EC /* Law Firm AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FCB96C318C00A49006E73EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B538256D18F38D6200A65656 /* Images.xcassets in Resources */,
+				1FCB96D318C00A49006E73EC /* InfoPlist.strings in Resources */,
+				B538257118F38DCD00A65656 /* Main_iPhone.storyboard in Resources */,
+				1FAB558818E33E7B0040F1E8 /* logo (1).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCB96E718C00A49006E73EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCB96F518C00A49006E73EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FCB96C118C00A49006E73EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB49AB8D19010966007A710A /* ClientInformationViewController.m in Sources */,
+				EB49AB8A190108FF007A710A /* WitnessInformationViewController.m in Sources */,
+				EB71429E18FA401E004890CC /* HSK_CFUtilities.m in Sources */,
+				EBAB819C1904CA7C00C7D9D0 /* ReviewInformationViewController.m in Sources */,
+				EB7142A018FA401E004890CC /* NSStream+SKPSMTPExtensions.m in Sources */,
+				EB49AB87190108EB007A710A /* AccidentInformationViewController.m in Sources */,
+				EB7142A118FA401E004890CC /* SKPSMTPMessage.m in Sources */,
+				EB5AC40618F4A2720067E775 /* ViewController.m in Sources */,
+				EB49AB9919046BCC007A710A /* RespondingAgencyViewController.m in Sources */,
+				EB11A36018F76370008C8C12 /* ConsultationViewController.m in Sources */,
+				EB71429F18FA401E004890CC /* NSData+Base64Additions.m in Sources */,
+				1FCB96D918C00A49006E73EC /* AppDelegate.m in Sources */,
+				EB71429D18FA401E004890CC /* Base64Transcoder.m in Sources */,
+				1FCB96D518C00A49006E73EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCB96E518C00A49006E73EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCB96F718C00A49006E73EC /* Law_Firm_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FCB96EF18C00A49006E73EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FCB96C418C00A49006E73EC /* Law Firm App */;
+			targetProxy = 1FCB96EE18C00A49006E73EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FCB96D118C00A49006E73EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCB96D218C00A49006E73EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FCB96F318C00A49006E73EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCB96F418C00A49006E73EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FCB96F818C00A49006E73EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FCB96F918C00A49006E73EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FCB96FB18C00A49006E73EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Law Firm App/Law Firm App-Prefix.pch";
+				INFOPLIST_FILE = "Law Firm App/Law Firm App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FCB96FC18C00A49006E73EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Law Firm App/Law Firm App-Prefix.pch";
+				INFOPLIST_FILE = "Law Firm App/Law Firm App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1FCB96FE18C00A49006E73EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Law Firm App.app/Law Firm App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Law Firm App/Law Firm App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Law Firm AppTests/Law Firm AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1FCB96FF18C00A49006E73EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Law Firm App.app/Law Firm App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Law Firm App/Law Firm App-Prefix.pch";
+				INFOPLIST_FILE = "Law Firm AppTests/Law Firm AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FCB96C018C00A49006E73EC /* Build configuration list for PBXProject "Law Firm App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCB96F818C00A49006E73EC /* Debug */,
+				1FCB96F918C00A49006E73EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCB96FA18C00A49006E73EC /* Build configuration list for PBXNativeTarget "Law Firm App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCB96FB18C00A49006E73EC /* Debug */,
+				1FCB96FC18C00A49006E73EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCB96FD18C00A49006E73EC /* Build configuration list for PBXNativeTarget "Law Firm AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCB96FE18C00A49006E73EC /* Debug */,
+				1FCB96FF18C00A49006E73EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FCB96BD18C00A49006E73EC /* Project object */;
+}
